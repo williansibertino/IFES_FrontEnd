@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inclusive+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 .container {
  max-width: 720px;
@@ -17,13 +17,17 @@ h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 5rem;
     text-align: center;
+    color: #f508fd;
 }
 h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3rem;
+    color: #f508fd;
 }
 p {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 5px;
 }
 
 
@@ -36,10 +40,11 @@ p {
 
 }
 .flexItem {
-    border: 1px solid #000;
+    border: 2px solid #5b0566;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    background-color: #61036d;
 }
 .flexItem:nth-child(1){
     flex-grow: 1;
@@ -50,7 +55,6 @@ p {
 .avatar {
     margin: auto;
     max-width: 150px;
-    background-color: #47ffc5;
     border-radius: 10px;
 }
 
@@ -61,15 +65,19 @@ p {
     flex-wrap: wrap;
 }
 .secaoItem {
-    border: 1px solid #000;
-    padding: 10px;
+    border: 2px solid #5b0566;
+    padding: 15px 10px;
     border-radius: 10px;
     margin: 10px;
+    background-color: #61036d;
 }
 .secaoItem:nth-child(3) {
     flex-grow: 1;
 }
+.secaoItem:nth-child(4) {
+    flex-grow: 1;
+}
 .seta {
-    color: #47ffc5;
+    color: #d146d1;
     margin-right: 5px;
 }

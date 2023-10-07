@@ -12,6 +12,7 @@ body {
     background-attachment: fixed;
     background-size: contain;
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 h1 {
     font-family: 'Bebas Neue', sans-serif;
@@ -25,7 +26,6 @@ h2 {
     color: #f508fd;
 }
 p {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     margin-bottom: 5px;
 }
@@ -37,6 +37,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 .flexItem {
@@ -46,11 +47,28 @@ p {
     border-radius: 10px;
     background-color: #61036d;
 }
+.lista {
+    font-size: 2rem;
+    font-weight: 300;
+}
 .flexItem:nth-child(1){
-    flex-grow: 1;
+    width: 150px;
+}
+@media only screen and (max-width:480px){
+    .flexItem:nth-child(1){
+        max-width: 100px;
+    }
 }
 .flexItem:nth-child(2) {
-    flex-grow: 2;
+    flex-grow: 1;
+}
+.flexItem:last-child {
+    border: 0;
+    background: none;
+}
+.flexIcon {
+    display: flex;
+    flex-direction: column;
 }
 .avatar {
     margin: auto;

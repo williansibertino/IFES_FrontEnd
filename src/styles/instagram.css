@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.headerFlex {
+    height: 100vh;
+    width: 20vw;
+    border-right: 1px solid #3c3c3c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: 300;
+    position: fixed;
+    flex-grow: 1;
+}
+.listaFlex{
+    display: flex;
+    align-items: end;
+    margin-bottom: 20px;
+}
+.listaFlex > a {
+    padding: 5px 5px 0px 5px;
+}
+.logo {
+    max-width: 150px;
+    margin: 20px auto 30px 20px;
+}
+.iconeLista {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 2.4rem;
+}
+.usuarioAvatar {
+    max-width: 2.4rem;
+    border: 2px solid #f8f8f8;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.main {
+    flex-grow: 1;
+}
+.mainFlex {
+    width: 760px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.avatar {
+    width: 150px;
+    margin: 20px auto 20px auto;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+.rowPerfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+}
+.pr {
+    font-size: 2rem;
+    font-weight: 300;
+    display: flex;
+    margin-right: 30px;
+}
+.icone {
+    margin: auto;
+    display: flex;
+}
+.btnPerfil {
+    padding: 5px;
+    background-color: #3c3c3c;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sr {
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-right: 20px;
+}
+.tr {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.fr > h3 {
+    font-size: 1.2rem;
+    color: #acacac;
+    font-weight: 700;
+}
+.destaqueFlex {
+    width: 760px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
+    border-bottom: 1px solid #3c3c3c;
+}
+.destaque {
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    background-color: #f8f8f8;
+}
+.galeriaFlex {
+    width: 760px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linkGaleria {
+    display: block;
+    float: left;
+}
+.menuGaleria {
+    padding: 20px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -1px;
+
+    display: flex;
+    align-items: center;
+}
+.menuGaleria:hover {
+    border-top: 1px solid #fff;
+}
+.iconeGaleria {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.imagemGaleria {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+.pictureFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer {
+    margin : 20px auto 20px auto;
+}
+.rodapeLinks {
+    width: 760px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    font-size: 1.2rem;
+}
+.rodapeLinks  > li {
+    color: #939393;
+    font-weight: 500;
+    padding: 3px;
+    margin-bottom: 10px;
+}
